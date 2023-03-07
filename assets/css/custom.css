@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 25%;
+}
+
+
+
+.head-color {
+    background: rgb(0,0,0);
+background: linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(13,43,29,1) 0%, rgba(3,110,255,1) 51%, rgba(25,24,24,1) 80%);
+}
+.icon-color {
+    color: #00BEE8;
+}
+
+.my-color {
+    background-color:#95A5B2  ;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Akaya Kanadaka";
+}
+
+
+.navcolor {
+    background: rgb(0,0,0);
+    background: linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(13,18,43,1) 14%, rgba(3,110,255,1) 68%, rgba(25,24,24,1) 100%);
+}
+
+
+.hover-icon a {
+    transition: color .2s ease-in-out;
+    color: white;
+}
+
+.hover-icon a:hover {
+    color: #00BEE8;
+    text-decoration: underline;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-40 {
+    width: 10%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.dot::before {
+    content: '';
+    position: absolute;
+    height: 15px;
+    bottom: 48.5%;
+    left: 49%;
+    width: 15px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 1;
+}
+
+.dot::after {
+    content: '';
+    position: absolute;
+    height: 25px;
+    bottom: 48%;
+    left: 48.5%;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #00BEE8;
+}
+
+
+.m-min {
+    margin-top: -10px;
+}
+
+
+.bg-col {
+background-color: #00BEE8;
+}
+
+
+
+
+
+  /* meadia query */
+
+
+@media (max-width:1024px) {
+.border-end {
+    display: none;
+}
+}
+
+
+@media (max-width:991px) {
+    .fixed-top {
+        position:relative;
+    }
+    .navbar {
+        width: 100%;
+    } 
+}
+
